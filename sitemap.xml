@@ -1,24 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://hackyfriday.github.io/news/2014/02/16/hello-world-test/</loc>
+        <lastmod>2014-02-16T00:06:45+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://hackyfriday.github.io/</loc>
-        <lastmod>2014-02-15T19:32:18+01:00</lastmod>
+        <lastmod>2014-02-16T00:11:49+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/contact/</loc>
-        <lastmod>2014-02-15T21:50:24+01:00</lastmod>
+        <lastmod>2014-02-16T00:22:32+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/news/</loc>
-        <lastmod>2014-02-15T21:51:19+01:00</lastmod>
+        <lastmod>2014-02-16T00:15:32+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/contents/</loc>
-        <lastmod>2014-02-15T21:44:29+01:00</lastmod>
+        <lastmod>2014-02-16T00:21:19+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/inventory/</loc>
-        <lastmod>2014-02-15T21:32:09+01:00</lastmod>
+        <lastmod>2014-02-16T00:21:32+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/robots.txt</loc>
@@ -26,10 +30,10 @@
     </url>
     <url>
         <loc>http://hackyfriday.github.io/about/</loc>
-        <lastmod>2014-02-15T21:50:37+01:00</lastmod>
+        <lastmod>2014-02-16T00:20:21+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/agenda/</loc>
-        <lastmod>2014-02-15T21:41:47+01:00</lastmod>
+        <lastmod>2014-02-16T00:20:35+01:00</lastmod>
     </url>
 </urlset>

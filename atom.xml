@@ -4,13 +4,22 @@
   <title><![CDATA[Hacky Friday]]></title>
   <link href="http://hackyfriday.github.io/atom.xml" rel="self"/>
   <link href="http://hackyfriday.github.io/"/>
-  <updated>2014-02-15T22:14:22+01:00</updated>
+  <updated>2014-02-16T00:36:21+01:00</updated>
   <id>http://hackyfriday.github.io/</id>
   <author>
-    <name><![CDATA[We]]></name>
+    <name><![CDATA[we]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World Test]]></title>
+    <link href="http://hackyfriday.github.io/news/2014/02/16/hello-world-test/"/>
+    <updated>2014-02-16T00:06:27+01:00</updated>
+    <id>http://hackyfriday.github.io/news/2014/02/16/hello-world-test</id>
+    <content type="html"><![CDATA[<p>this is a test</p>
+]]></content>
+  </entry>
   
 </feed>
