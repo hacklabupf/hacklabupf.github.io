@@ -2,14 +2,18 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://hackyfriday.github.io/</loc>
-        <lastmod>2014-02-15T18:54:14+01:00</lastmod>
+        <lastmod>2014-02-15T19:32:18+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/blog/archives/</loc>
-        <lastmod>2014-02-15T18:54:14+01:00</lastmod>
+        <lastmod>2014-02-15T19:32:18+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/robots.txt</loc>
-        <lastmod>2014-02-15T18:54:14+01:00</lastmod>
+        <lastmod>2014-02-15T19:32:18+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://hackyfriday.github.io/agenda/</loc>
+        <lastmod>2014-02-15T19:32:51+01:00</lastmod>
     </url>
 </urlset>
