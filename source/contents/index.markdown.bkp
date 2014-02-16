@@ -1,0 +1,26 @@
+---
+layout: page
+title: "about"
+comments: false
+sharing: true
+footer: true
+---
+
+Edit here: https://pad.riseup.net/p/FVVSZDagpvg6
+
+<p></p>
+
+<html> 
+  <head> 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("https://pad.riseup.net/p/FVVSZDagpvg6/export/html"); 
+    });
+    </script> 
+  </head> 
+
+  <body> 
+     <div id="includedContent"></div>
+  </body> 
+</html>
