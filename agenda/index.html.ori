@@ -42,7 +42,7 @@ https://pad.riseup.net/p/18ZQWAsNQQWZ $(function(){ $("#includedContent").load("
   <header role="banner"><hgroup>
   <h1><a href="/">Hacky Friday</a></h1>
   
-    <h2>weekly open tech & fun!</h2>
+    <h2>weekly open tech & fun</h2>
   
 </hgroup>
 
