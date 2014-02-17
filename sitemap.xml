@@ -1,79 +1,67 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://hackyfriday.github.io/news/2014/02/16/hello-world-test/</loc>
-        <lastmod>2014-02-16T00:06:45+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://hackyfriday.github.io/news/2014/02/16/test-2/</loc>
-        <lastmod>2014-02-16T00:51:46+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://hackyfriday.github.io/news/2014/02/16/test-3/</loc>
-        <lastmod>2014-02-16T00:51:48+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://hackyfriday.github.io/news/2014/02/16/test-4/</loc>
-        <lastmod>2014-02-16T00:51:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://hackyfriday.github.io/news/2014/02/16/test-5/</loc>
-        <lastmod>2014-02-16T00:51:51+01:00</lastmod>
+        <loc>http://hackyfriday.github.io/news/2014/02/17/start/</loc>
+        <lastmod>2014-02-17T10:41:27+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/</loc>
-        <lastmod>2014-02-16T01:09:39+01:00</lastmod>
+        <lastmod>2014-02-17T10:41:27+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/contact/</loc>
-        <lastmod>2014-02-16T02:17:01+01:00</lastmod>
+        <lastmod>2014-02-17T10:41:27+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/contact/index.markdown.bkp</loc>
-        <lastmod>2014-02-16T00:22:32+01:00</lastmod>
+        <lastmod>2014-02-16T02:43:33+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/news/</loc>
-        <lastmod>2014-02-16T02:25:19+01:00</lastmod>
+        <lastmod>2014-02-17T10:41:27+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/contents/</loc>
-        <lastmod>2014-02-16T02:17:31+01:00</lastmod>
+        <lastmod>2014-02-17T10:41:27+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/contents/index.markdown.bkp</loc>
-        <lastmod>2014-02-16T01:50:22+01:00</lastmod>
+        <lastmod>2014-02-16T02:43:33+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://hackyfriday.github.io/blog/archives/</loc>
+        <lastmod>2014-02-17T10:41:27+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/inventory/</loc>
-        <lastmod>2014-02-16T02:17:19+01:00</lastmod>
+        <lastmod>2014-02-17T10:41:27+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/inventory/index.markdown.bkp</loc>
-        <lastmod>2014-02-16T00:21:32+01:00</lastmod>
+        <lastmod>2014-02-16T02:43:33+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/robots.txt</loc>
-        <lastmod>2014-02-15T19:32:18+01:00</lastmod>
+        <lastmod>2014-02-16T02:43:33+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/about/</loc>
-        <lastmod>2014-02-16T02:16:44+01:00</lastmod>
+        <lastmod>2014-02-17T10:41:27+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/about/index.markdown.bkp</loc>
-        <lastmod>2014-02-16T00:20:21+01:00</lastmod>
+        <lastmod>2014-02-16T02:43:33+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/agenda/</loc>
-        <lastmod>2014-02-16T02:18:57+01:00</lastmod>
+        <lastmod>2014-02-17T10:41:27+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/agenda/index.html.ori</loc>
-        <lastmod>2014-02-16T01:31:41+01:00</lastmod>
+        <lastmod>2014-02-16T02:43:33+01:00</lastmod>
     </url>
     <url>
         <loc>http://hackyfriday.github.io/agenda/index.markdown.bkp</loc>
-        <lastmod>2014-02-16T00:20:35+01:00</lastmod>
+        <lastmod>2014-02-16T02:43:33+01:00</lastmod>
     </url>
 </urlset>
