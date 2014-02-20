@@ -6,4 +6,4 @@ comments: true
 categories: 
 ---
 
-Now we have a basic IT infrastructure & ideas to test, is time to start. Next Friday 21 is our first day
+Now we have a basic IT infrastructure & ideas to test, it's time to start. Next Friday 21 is our first day
