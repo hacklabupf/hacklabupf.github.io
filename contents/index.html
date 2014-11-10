@@ -10,23 +10,26 @@ permalink: /contents/
   
   <script>  
   
-  	var mySpan = document.createElement("span");
+  	var mySpan;
   	
 	var stripCSS = function(){
 		//We're interested only on the span contents
 		//mySpan = mySpan.find('body');
 		//here we attack the span to the actual document
 	//	$("#includedContent").appendChild(mySpan);
-	}
+	};
 	
 	var loadEtherpad = function() {
 		//then, we include on the #includedContent id etherpad contents
 		mySpan.load("http://etherpad.installgentoo.com/p/hacklabupf-contents/export/html",stripCSS());
-	}		
+	};		
 	
 	//We wait for the document to be fully loaded up
-	$( document ).ready(
-		loadEtherpad()
+	$( document ).ready(function(){
+		mySpan = document.createElement("span");
+		loadEtherpad();
+		
+	}
 	); 
   </script> 
 </body> 
