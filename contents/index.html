@@ -26,7 +26,8 @@ permalink: /contents/
 	
 	//We wait for the document to be fully loaded up
 	$( document ).ready(function(){
-		mySpan = document.createElement("span");
+		mySpan = $("#includedContent");
+		mySpan.detach();
 		loadEtherpad();
 		
 	}
