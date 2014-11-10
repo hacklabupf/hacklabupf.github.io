@@ -6,22 +6,20 @@ permalink: /contents/
 
 <body> 
   <p><a href="http://etherpad.installgentoo.com/p/hacklabupf-contents" target="_blank">Edit here</a></p>
-  <span id="content">
-	  <div id="includedContent" style="background-color: #cccccc">
-	  </div>
-  </span>
+  <div id="content" style="background-color: #cccccc">
+	 
+  </div>
   
   <script>  
   
   	var myDiv;
-  	
-	var stripCSS = function(){
+  	var stripCSS = function(){
 		//We're interested only on the span contents
 	//	mySpan.find('style').remove();
 	//	mySpan.find('meta').remove();
 	//	mySpan.find('title').remove();
 		//here we attack the span to the actual document
-	$("#content").appendChild(myDiv);
+		$('#content').appendChild(myDiv);
 	};
 	
 	var loadEtherpad = function() {
