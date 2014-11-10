@@ -15,9 +15,9 @@ permalink: /contents/
   	var myDiv;
   	var stripCSS = function(){
 		//We're interested only on the contents
-		mySpan.find('style').remove();
-		mySpan.find('meta').remove();
-		mySpan.find('title').remove();
+		myDiv.find('style').remove();
+		myDiv.find('meta').remove();
+		myDiv.find('title').remove();
 		//here we attach the thing
 		$('#content').append(myDiv);
 	};
