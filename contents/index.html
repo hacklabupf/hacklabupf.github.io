@@ -4,16 +4,26 @@ title: Contents
 permalink: /contents/
 ---
 
-<head>
-  <script src="//code.jquery.com/jquery-1.9.1.js"></script> 
-  <script> 
-    $(function() {
-    $("#includedContent").load("http://etherpad.installgentoo.com/p/hacklabupf-contents/export/html"); 
-    }); 
-  </script> 
-</head>
-
 <body> 
   <p><a href="http://etherpad.installgentoo.com/p/hacklabupf-contents" target="_blank">Edit here</a></p>
   <div id="includedContent" style="background-color: #cccccc"></div>
+  
+  <script>  
+	var stripCSS = function(){
+		//here we remove all style applied on #includedContent
+		$("#includedContent").find('*').removeAttr('style');
+		//here you would apply new style to #includedContent
+		//Code...
+	}
+	
+	var loadEtherpad = function() {
+		//then, we include on the #includedContent id etherpad contents
+		$("#includedContent").load("http://etherpad.installgentoo.com/p/hacklabupf-contents/export/html",stripCSS());
+	}		
+	
+	//We wait for the document to be fully loaded up
+	$( document ).ready(
+		loadEtherpad();
+	})	); 
+  </script> 
 </body> 
