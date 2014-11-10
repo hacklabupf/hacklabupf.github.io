@@ -11,9 +11,17 @@ permalink: /contents/
   </div>
   
   <script>  
+  	
   	//We wait for the document to be fully loaded up
-	$( document ).ready(function(){
-		$('#content').load("http://etherpad.installgentoo.com/p/hacklabupf-contents/export/html body");
-	}); 
+  	$( document ).ready(function(){
+		$('#content').load("http://etherpad.installgentoo.com/p/hacklabupf-contents/export/html", function(){
+		$('#content').remove('title');
+		$('#content').remove('meta');
+		$('#content').remove('style');
+		//dirty trick to redraw webpage.
+		$(window).trigger('resize');
+			
+			
+	});}); 
   </script> 
 </body> 
