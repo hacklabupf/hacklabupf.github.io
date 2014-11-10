@@ -14,12 +14,12 @@ permalink: /contents/
   
   	var myDiv;
   	var stripCSS = function(){
+		//here we attach the thing
+		$('#content').append(myDiv);
 		//We're interested only on the contents
 		myDiv.find('style').remove();
 		myDiv.find('meta').remove();
 		myDiv.find('title').remove();
-		//here we attach the thing
-		$('#content').append(myDiv);
 	};
 	
 	var loadEtherpad = function() {
