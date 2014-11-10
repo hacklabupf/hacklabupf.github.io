@@ -14,11 +14,11 @@ permalink: /contents/
   
   	var myDiv;
   	var stripCSS = function(){
-		//We're interested only on the span contents
-	//	mySpan.find('style').remove();
-	//	mySpan.find('meta').remove();
-	//	mySpan.find('title').remove();
-		//here we attack the span to the actual document
+		//We're interested only on the contents
+		mySpan.find('style').remove();
+		mySpan.find('meta').remove();
+		mySpan.find('title').remove();
+		//here we attach the thing
 		$('#content').append(myDiv);
 	};
 	
