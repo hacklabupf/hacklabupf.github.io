@@ -13,7 +13,7 @@ permalink: /contents/
   
   <script>  
   
-  	var mySpan;
+  	var myDiv;
   	
 	var stripCSS = function(){
 		//We're interested only on the span contents
@@ -21,18 +21,17 @@ permalink: /contents/
 	//	mySpan.find('meta').remove();
 	//	mySpan.find('title').remove();
 		//here we attack the span to the actual document
-	$("#content").appendChild(mySpan);
+	$("#content").appendChild(myDiv);
 	};
 	
 	var loadEtherpad = function() {
 		//then, we include on the #includedContent id etherpad contents
-		mySpan.load("http://etherpad.installgentoo.com/p/hacklabupf-contents/export/html",stripCSS());
+		myDiv.load("http://etherpad.installgentoo.com/p/hacklabupf-contents/export/html",stripCSS());
 	};		
 	
 	//We wait for the document to be fully loaded up
 	$( document ).ready(function(){
-		mySpan = $("#includedContent");
-		mySpan.detach();
+		myDiv = $('<div></div>')
 		loadEtherpad();
 		
 	}
