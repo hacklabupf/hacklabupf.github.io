@@ -9,16 +9,19 @@ permalink: /contents/
   <div id="includedContent" style="background-color: #cccccc"></div>
   
   <script>  
+  
+  	var mySpan = document.createElement("span");
+  	
 	var stripCSS = function(){
-		//here we remove all style applied on #includedContent and its children
-		$("#includedContent").find('*').removeAttr('style');
-		//here you would apply new style to #includedContent
-		//Code...
+		//We're interested only on the span contents
+		mySpan = mySpan.find('body');
+		//here we attack the span to the actual document
+		$("#includedContent").appendChild(mySpan);
 	}
 	
 	var loadEtherpad = function() {
 		//then, we include on the #includedContent id etherpad contents
-		$("#includedContent").load("http://etherpad.installgentoo.com/p/hacklabupf-contents/export/html",stripCSS());
+		mySpan.load("http://etherpad.installgentoo.com/p/hacklabupf-contents/export/html",stripCSS());
 	}		
 	
 	//We wait for the document to be fully loaded up
