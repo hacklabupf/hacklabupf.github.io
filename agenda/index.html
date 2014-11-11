@@ -5,14 +5,14 @@ permalink: /agenda/
 ---
 
 <body>
-  <p><a href="//etherpad.installgentoo.com/p/hacklabupf-agenda" target="_blank">Edit here</a></p>
+  <p><a href="//etherpad.guifi.net/p/hacklabupf-agenda" target="_blank">Edit here</a></p>
   <div id="content" style="background-color: #cccccc">
   </div>
 
   <script>
     //We wait for the document to be fully loaded up
     $( document ).ready(function(){
-        $('#content').load("http://etherpad.installgentoo.com/p/hacklabupf-agenda/export/html", function(){
+        $('#content').load("//etherpad.guifi.net/p/hacklabupf-agenda/export/html", function(){
             $('#content').find('title').remove();
             $('#content').find('meta').remove();
             $('#content').find('style').remove();
