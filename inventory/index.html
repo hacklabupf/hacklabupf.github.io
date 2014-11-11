@@ -4,16 +4,18 @@ title: Inventory
 permalink: /inventory/
 ---
 
-<head>
-  <script src="//code.jquery.com/jquery-1.9.1.js"></script> 
-  <script> 
-    $(function() {
-    $("#includedContent").load("http://etherpad.installgentoo.com/p/hacklabupf-inventory/export/html"); 
-    }); 
-  </script> 
-</head>
-
-<body> 
+<body>
   <p><a href="http://etherpad.installgentoo.com/p/hacklabupf-inventory" target="_blank">Edit here</a></p>
-  <div id="includedContent" style="background-color: #cccccc"></div>
+  <div id="content" style="background-color: #cccccc">
+  </div>
+
+  <script>
+    //We wait for the document to be fully loaded up
+    $( document ).ready(function(){
+        $('#content').load("http://etherpad.installgentoo.com/p/hacklabupf-inventory/export/html", function(){
+            $('#content').find('title').remove();
+            $('#content').find('meta').remove();
+            $('#content').find('style').remove();
+        });});
+  </script>
 </body>
