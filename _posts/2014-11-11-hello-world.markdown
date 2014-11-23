@@ -12,7 +12,7 @@ The design of this web is simple. Prepared to be collaborative/cooperative with 
 hacklabupf project started few weeks ago, and there are different workgroups and projects associated:
 
 - Guifi.net: [http://guifi.net/en/node/56604](http://guifi.net/en/node/56604)
-- Hands-on Wireless Sensor Networks: [http://handsonwsn.org/]([http://handsonwsn.org/])
+- Hands-on Wireless Sensor Networks: [http://handsonwsn.org/](http://handsonwsn.org/)
 - ACM-UPF 2014 Contest (programming workshop): [http://www.dtic.upf.edu/~jonsson/acm/](http://www.dtic.upf.edu/~jonsson/acm/)
 - Workgroup about robots: [http://github.com/hacklabupf/robot](http://github.com/hacklabupf/robot)
 
