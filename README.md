@@ -8,5 +8,7 @@ This is intended to be a web to help the life in the hacklab of UPF (Universitat
 
 The `src` folder is the source where you should edit the files. `gulp` minifies the files and places everything into the `dist` folder. I recommend to navigate the `dist` folder with the localserver and run `gulp -p` each time in order to deploy.
 
+When you are ready use `gulp deploy -p` for deploying to the `master` branch.
+
 ## License
 MIT.
