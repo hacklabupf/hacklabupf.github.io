@@ -42,6 +42,8 @@
 @import './base/typography';
 @import './color/borders';
 @import './layout/social';
+@import './layout/cover';
+
 
 /* Custom media queries */
 @custom-media --breakpoint-sm (min-width: 40em);
