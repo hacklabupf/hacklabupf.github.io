@@ -1,0 +1,17 @@
+/* Example custom styles */
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.cover-img {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  background-position: 50% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto 1em;
+  max-height: 600px;
+}
