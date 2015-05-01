@@ -1,0 +1,14 @@
+/* Example custom styles */
+
+.blur {
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+}
+
+.blur:focus,
+.blur:hover {
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+	filter: none;
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+}
